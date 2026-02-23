@@ -11,7 +11,8 @@ To design and simulate a Non-Inverting Amplifier using μA741 in Proteus Design 
 •	CRO / Oscilloscope
 •	Connecting wires
 ## Circuit Diagram
-(Draw neatly in record OR paste Proteus circuit screenshot)
+<img width="905" height="668" alt="image" src="https://github.com/user-attachments/assets/5aee75e7-664a-48c5-b9c6-26b7caf3597b" />
+
 Pin Configuration:
 •	Pin 3 → Input (Non-inverting)
 •	Pin 2 → Feedback network
@@ -31,8 +32,11 @@ The output signal is amplified and remains in phase with the input signal.
 7.	Run simulation.
 8.	Observe input and output waveforms.
 ## Waveform
+<img width="1916" height="1143" alt="image" src="https://github.com/user-attachments/assets/faf9e4ec-2099-49d9-ab15-390a19770238" />
+
 ## Tabulation
-S.No	Vin (V)	Theoretical Gain	Theoretical Vout (V)	Practical Vout (V)
+<img width="1165" height="286" alt="image" src="https://github.com/user-attachments/assets/a0362641-b6b8-4d3b-bc1f-3a5cdcff4d49" />
+
 ## Result
 The Non-Inverting Amplifier using μA741 Op-Amp was designed and simulated successfully.
 The voltage gain obtained is approximately 11.
@@ -43,8 +47,17 @@ The output waveform is in phase with the input waveform.
 •	Practical values are close to theoretical values.
 ## Viva Questions
 1.	What is a Non-Inverting Amplifier?
-2.	What is the gain formula?
-3.	Why is output in phase?
-4.	What happens if Rf increases?
-5.	What is the input impedance of non-inverting amplifier?
+2. What is the gain formula?
+3.	What is the gain formula?
+4.	Why is output in phase?
+5.	What happens if Rf increases?
+6.	What is the input impedance of non-inverting amplifier?
+
+## Answers
+1.A non-inverting amplifier is an op-amp configuration where the input signal is applied to the non-inverting (+) terminal, and the output is fed back to the inverting (−) terminal through a resistor. The output voltage is amplified and in phase with the input.<br>
+2.Av=1+(Rf/R1)<br>
+3.The input is applied to the non-inverting terminal (+). Since there is no phase reversal in this configuration, the output follows the same polarity as the input. Therefore, the output is in phase (0° phase shift) with the input.<br>
+4.​If increases, the gain increases. Therefore, the output voltage increases for the same input voltage.<br>
+5.The input impedance is very high (ideally infinite). Practically, it is in the megaohms range because the input is connected directly to the op-amp input terminal.<br>
+
 
